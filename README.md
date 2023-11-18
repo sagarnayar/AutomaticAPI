@@ -6,9 +6,9 @@ BELOW ARE THE STEPS BEING FOLLOWED :-
 
 Install the CLI globally by running
 
-npm i -g @loopback/cli
+`npm i -g @loopback/cli`
 
-Create a new project using :- lb4 app
+Create a new project using :- `lb4 app`
 
 Answered the prompts as follows:
 
@@ -27,13 +27,13 @@ Answered the prompts as follows:
 ◉ Enable services: include service-proxy imports and ServiceMixin
 
 STARTED THE PROJECT :-
-cd getting-started
-npm start
+`cd getting-started`
+`npm start`
 
-In a browser, visited http://127.0.0.1:3000/ping
+In a browser, visited `http://127.0.0.1:3000/ping`
 
 ADDED YOUR OWN CONTROLLER:-
-lb4 controller
+`lb4 controller`
 
 Answer the prompts as follows:
 
@@ -44,10 +44,9 @@ update src/controllers/index.ts
 
 Controller hello was now created in src/controllers/
 
-PasteD the following contents into the file /src/controllers/hello.controller.ts:
+`Pasted the below code  into the file /src/controllers/hello.controller.ts:`
 
 import {get} from '@loopback/rest';
-
 export class HelloController {
 @get('/hello')
 hello(): string {
@@ -56,7 +55,7 @@ return 'Hello world!';
 }
 
 STARTED THE APPLICATION USING NPM START:-
-Visit http://127.0.0.1:3000/hello to see Hello world!
+`Visit http://127.0.0.1:3000/hello to see Hello world!`
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
